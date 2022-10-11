@@ -1,0 +1,527 @@
+body{
+  margin: 5%;
+  width: auto;
+  max-height: max-content;
+    
+}
+.page1 {
+  /* background: linear-gradient(15deg, #0367f5, #0781ef,#036); */
+  background: linear-gradient(55deg, rgba(3,103,245,1) 29%, rgba(7,129,239,1) 29%, rgba(7,129,239,1) 60%, rgba(3,103,245,1) 61%);
+  
+  }
+
+  .logo{
+    width : 50px;
+    height : 50px;
+    
+  }
+/* Menu hambuger */
+a {
+    color: white;
+  }
+  
+  /* header */
+  
+  .header {
+    
+    
+    position:relative;
+    width: 100%;
+    z-index: 3;
+    
+  }
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    ;
+  }
+  
+  .header li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+  }
+  
+  .header li a:hover,
+  .header .menu-btn:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  /* menu */
+  
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+  
+  /* menu icon */
+  
+  .header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+  
+  .header .menu-icon .navicon {
+    background: white;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+  
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    background:white;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  .header .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  .header .menu-icon .navicon:after {
+    top: -5px;
+  }
+  
+  /* menu btn */
+  
+  .header .menu-btn {
+    display: none;
+  }
+  
+  .header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+  
+  
+  
+  
+
+
+  /* titre accueil */
+.milieu{
+    margin-left: 10px;
+    margin-top: 35px;
+    margin-right:10px ;
+    display: flex;
+    flex-direction: column;
+  }
+.h1-accueil{
+    font-family: arial, Helvetica, sans-serif;
+    color: white;
+    
+    font-weight: bold;
+    font-size: larger;
+    text-align: left;
+   
+ }
+.p-accueil{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+  }
+  /* boutons */
+  buttons{
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+.button-un{
+    border-radius: 30px;
+	padding: 10px 15px;
+    border: none;
+    color:#0367f5;
+    font-weight: bold;
+    background-color: white;
+    
+}
+.button-deux{
+
+  border-radius: 30px;
+	padding: 10px 15px;
+    border: solid 2px white;
+    background-color: #0367f5;
+    color: white;
+    font-weight: bold;  
+}
+
+/* ourServices */
+.main{
+  
+  background-color: rgb(242, 242, 242);
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+}
+
+.ourServices{
+  
+  padding: 5%;}
+
+  .pricingplans{
+      padding: 5%;
+  }
+
+h3{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size: 23px;
+  }
+.titre{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 23px;
+}
+.par{
+  
+      color: rgb(92, 92, 92);
+      font-size: 19px;
+      text-align: center;
+  }
+
+  .services{
+      width: 100%;
+      height:200px;
+      position: relative;
+      text-align: center;
+  }
+  .graphics{
+      background-color: white;
+      width: auto;
+      max-height: max-content;
+      position: relative;
+      text-align: center;
+      flex-direction: column;
+      border-radius: 8px;
+  }
+
+.graphHeader{
+      display: flex;
+      justify-content: space-between;
+      padding: 30px;
+      font-size: 15px;
+  }
+
+.parFooter{
+      padding: 30px;
+      font-size: 12px;
+      
+  }
+.iconscreen{
+      width: 90px;
+      height: 90px;
+      position: absolute;
+      z-index: 3;
+      left: 65%;
+      top:50px;
+  }
+  
+  
+  
+.bean{
+     z-index: 0;
+      width: 100px;
+      height: 105px;
+  }
+
+.learn{
+      font-style:normal;
+      font-size: 20px;
+      color: blue;
+      font-family:'lineiconsregular', serif;
+  }
+
+
+  /* Featured */
+  .featured{
+    font-family: Arial, Helvetica, sans-serif;
+    position: center;
+    font-size: larger;
+    text-align: center;
+
+
+
+    
+
+}
+.par{
+    color: #757575;
+    
+    
+}
+
+.boutons1{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0%;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+
+    
+
+}
+
+.all-work{
+    background: linear-gradient(131deg, rgba(3,103,245,1) 20%, rgba(29,177,229,1) 85%);
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+	padding: 10px 15px;
+    border: solid 2px ;
+    
+
+}
+button{
+    color: #757575;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.images{
+  width: auto;
+  max-height: max-content;
+}
+  
+
+/* questions */
+.main2{
+  
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: center;
+}
+
+
+.etiImg{
+  width: 190px;
+  height: 190px;
+  margin: auto;
+  display: block;
+}
+
+.emptyDiv{
+  width: 350px;
+  height: 50px;
+}
+
+
+
+.eti{
+ color: white;
+  background: linear-gradient(0deg, rgba(0,70,255,1) 0%, rgba(45,238,253,1) 100%);
+ 
+  position: relative;
+  border-radius: 8px;
+}
+
+.button-pricing{
+  width: 17px;
+  height: 20px;
+  color: #4f1ff7;
+background-color: white;
+border-radius: 30px;
+  position: relative;
+  text-align: center;
+padding: 10px 50px;
+  border: none;
+}
+.p1{
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 0.5em;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.p2{
+  line-height: 1em;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.moreabout{
+  color: blue;
+  font-weight: 500;
+  font-size: 25px;
+}
+.frequently{
+  font-weight: 700;
+}
+.txtAboutUs{
+  font-weight: 400;
+  position: relative;
+  text-align:left;
+  margin: 30px;
+}
+.deroulant{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  font-size: 15px;
+}
+/* contact */
+@media screen(max-width:200px), (max-height:250px) {
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400px;
+}
+
+#abc{
+    color:grey;
+}
+.cote{
+    width: 40px;
+    height: 35px;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+  
+
+.team{
+    color: blue;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 18px;
+}
+h3{
+    text-align: center;
+}
+.nom{
+    display: block;
+    margin: auto;
+}
+iframe{
+    display: block;
+    margin: auto;
+}
+#g{
+    
+}
+
+#logo{
+    color: white;
+    display: block;
+    margin: auto;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+#RS{
+    background-color: black;
+}
+aside{
+    background-color: rgb(243, 242, 242);
+    color: grey;
+    font-size: larger;
+}
+aside p{
+    color: grey;
+}
+.bout{
+    width: 800px;
+    border: 3px solid gray;
+    border-radius: 5px;
+    
+}
+#tout{
+        height: 150px;
+}      
+.button-fin{
+    color: white;
+    background-color:#0367f5;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 250px;
+    height: 40px;
+}
+
+
+.foot{
+    color: white;
+}
+#ht{
+    
+    text-align: left;
+}
+.style{
+    display: flex;
+    gap: -45px;
+   
+}
+.facebook{
+    width: 150px;
+    border-radius: 5px;
+    height: 30px;
+}
+.twitter{
+    width: 150px;
+    border-radius: 5px;
+    height: 30px;
+}
+.insta{
+    width: 150px;
+    border-radius: 5px;
+    height: 30px;
+}
+.likedin{
+    width: 150px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.photo{
+  display: block;
+  margin: auto;
+}
