@@ -1,8 +1,9 @@
 
 
 /* Large devices (desktops, 992px and up) */
+@media (min-width:768px) {
+  
 
-@media (min-width: 768px) {
 
   body{
     height: 100vh;
@@ -33,7 +34,8 @@
     display: flex;
     float: right;
   }
-}  
+}
+  
 
 
 
@@ -160,7 +162,7 @@ a {
   /* menu btn */
   
   .header .menu-btn {
-    display: none;
+    display:none;
   }
   
   .header .menu-btn:checked ~ .menu {
@@ -465,9 +467,7 @@ padding: 10px 50px;
   font-size: 15px;
 }
 /* contact */
-@media screen(max-width:200px), (max-height:250px) {
-    
-}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400px;
@@ -484,8 +484,7 @@ body {
       text-align: center;
   }
 
-#abc{
-}
+
  
 
 .cote{
