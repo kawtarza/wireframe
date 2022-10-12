@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'lineiconsregular';
+    src: url('font/LineIcons.eot');
+    src: url('font/LineIcons.ttf') format('truetype'),
+    url('font/LineIcons.woff') format('woff'),
+     url('font/LineIcons.woff2')  format('woff2');
+
+}
+
+*{
+	/*box-sizing: border-box;*/
+}
+
+.main{
+  
+    background-color: rgb(242, 242, 242);
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  
+}
+.ourServices{
+    
+    padding: 5%;
+
+}
+.about{
+  /*  width: 350px;
+    height: 350px;*/
+}
+.main2{
+    /*width: 400px;
+    height:auto;*/
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+.pricingplans{
+    padding: 5%;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 23px;
+}
+q{
+
+    color: rgb(92, 92, 92);
+    font-size: 19px;
+}
+.etiImg{
+   /* width: 190px;
+    height: 190px;
+    margin: auto;
+    display: block;*/
+}
+.services{
+   /* width: 100%;
+    height:200px;*/
+    position: relative;
+    text-align: center;
+}
+.graphics{
+    background-color: white;
+   /* width: 350px;
+    height: 350px;*/
+    position: relative;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 8px;
+}
+.emptyDiv{
+   /* width: 350px;
+    height: 50px;*/
+}
+.graphHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 15px;
+}
+.parFooter{
+    padding: 30px;
+    font-size: 12px;
+    
+}
+.iconscreen{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    z-index: 3;
+    left: 65%;
+    top:50px;
+}
+
+
+
+.bean{
+   z-index: 0;
+    width: 100px;
+    height: 105px;
+}
+.learn{
+    font-style:normal;
+    font-size: 20px;
+    color: blue;
+    font-family:'lineiconsregular', serif;
+}
+.eti{
+   color: white;
+    background: linear-gradient(0deg, rgba(0,70,255,1) 0%, rgba(45,238,253,1) 100%);
+    width: 350px;
+    height: 400px;
+    position: relative;
+    border-radius: 8px;
+}
+
+button{
+    width: 17px;
+    height: 20px;
+    color: #4f1ff7;
+	background-color: white;
+	border-radius: 30px;
+    position: relative;
+    text-align: center;
+	padding: 10px 50px;
+    border: none;
+}
+.p1{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 0.5em;
+    position: relative;
+    text-align: center;
+}
+.p2{
+    line-height: 1em;
+    position: relative;
+    text-align: center;
+}
+.moreabout{
+    color: blue;
+    font-weight: 500;
+    font-size: 25px;
+}
+.frequently{
+    font-weight: 700;
+}
+.lorem{
+    margin: 30px;
+}
+.txtAboutUs{
+    font-weight: 400;
+    position: relative;
+    text-align:left;
+    margin: 30px;
+}
+.deroulant{
+    position: relative;
+    text-align:left;
+    flex-direction: column;
+    font-size: 15px;
+}
