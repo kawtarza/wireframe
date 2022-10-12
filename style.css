@@ -216,6 +216,11 @@ a {
     margin-left: 30px;
     margin-top: 20px;
   }
+  .button-undiv{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
 
   
   
@@ -465,7 +470,7 @@ padding: 10px 50px;
   font-size: 15px;
 }
 /* contact */
-@media screen(max-width:200px), (max-height:250px) {
+@media screen and(max-width:200px), (max-height:250px) {
     
 }
 body {
@@ -521,12 +526,14 @@ iframe{
     height: 500px;
     margin-bottom: 65px;
 }
+
 .location{
     width: 65px;
     height: 35px;
     float: left;
     
 }
+
 
 
 footer{
@@ -641,9 +648,13 @@ aside p{
     border-radius: 25px;
     height: 25px;
 }
-.Designed{
-    margin-top: 50px;
+
+img{
+  display: block;
+  margin: auto;
 }
-.f-1{
-    color: blue;
+.photo{
+  display: block;
+  margin: auto;
+  width: 400px;
 }
