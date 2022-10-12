@@ -560,7 +560,7 @@ aside p{
 #tout{
         height: 150px;
 }      
-button{
+.button-fin{
     color: white;
     background-color: blue;
     border-radius: 5px;
