@@ -395,14 +395,13 @@ padding: 10px 50px;
 }
 .txtAboutUs{
   font-weight: 400;
-  position: relative;
-  text-align:left;
-  margin: 30px;
+  
+  
+ 
 }
 .deroulant{
-  display: flex;
-  justify-content: space-between;
-  padding: 30px;
+
+ 
   font-size: 15px;
 }
 /* contact */
