@@ -1,14 +1,65 @@
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 768px) {
+
+  body{
+    height: 100vh;
+    width: 100vw;  
+  }
+  .largescreen{
+    position: relative;
+    color: white;
+
+  }
+  .fusee{  position: relative;
+
+  }
+.boutons1{
+  width:50%;
+}
+.images{
+  width: 30%;
+  display: flex;
+}
+  .btnimg{
+    display:flex;
+  } 
+  .h1-accueil{
+    display:none;
+  }
+  .fusee{
+    display: flex;
+    float: right;
+  }
+}  
+
+
+
+
+
+
+
 body{
   margin: 5%;
-  width: auto;
-  max-height: max-content;
+  height: 100vh;
+  width: 100vw;  
     
+}
+.fusee{
+  display:none;
+}
+.largescreen{
+  display: none;
+  
 }
 .page1 {
   /* background: linear-gradient(15deg, #0367f5, #0781ef,#036); */
   background: linear-gradient(55deg, rgba(3,103,245,1) 29%, rgba(7,129,239,1) 29%, rgba(7,129,239,1) 60%, rgba(3,103,245,1) 61%);
   
   }
+  
 
   .logo{
     width : 50px;
@@ -171,6 +222,14 @@ a {
     justify-content: center;
 }
 
+  
+  
+  .button-undiv{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
 .button-un{
     border-radius: 30px;
 	padding: 10px 15px;
@@ -190,7 +249,7 @@ a {
     font-weight: bold;  
 }
 
-/* ourServices */
+/* our Services */
 .main{
   
   background-color: rgb(242, 242, 242);
@@ -285,6 +344,7 @@ h3{
     position: center;
     font-size: larger;
     text-align: center;
+    background-color: white;
 
 
 
@@ -413,25 +473,39 @@ padding: 10px 50px;
 @media screen and(max-width:200px), (max-height:250px) {
     
 }
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400px;
+    
 }
+    
+#title-team{
+    text-align: center;
+    font-size: 2cm;
+}
+.par{
+    color: rgb(92, 92, 92);
+      font-size: 19px;
+      text-align: center;
+  }
 
 #abc{
-    color:grey;
 }
+ 
+
 .cote{
     width: 40px;
     height: 35px;
     margin-left: 0px;
     margin-top: 15px;
 }
-  
-
+p{
+    text-align: center;
+    color: grey; 
+    font-size: 18px;   
+}
 .team{
     color: blue;
-    text-align: center;
 }
 h2{
     text-align: center;
@@ -440,25 +514,33 @@ h2{
 h3{
     text-align: center;
 }
-.nom{
+img{
     display: block;
     margin: auto;
+    width: 400px;
 }
 iframe{
     display: block;
     margin: auto;
+    width: 600px;
+    height: 500px;
+    margin-bottom: 65px;
+}
+
+.location{
+    width: 65px;
+    height: 35px;
+    float: left;
+    
 }
 
 
-#logo{
-    color: white;
-    display: block;
-    margin: auto;
-}
+
 footer{
     background-color: black;
     color: white;
     margin: 10px;
+    padding: 100px;
 }
 #RS{
     background-color: black;
@@ -467,14 +549,19 @@ aside{
     background-color: rgb(243, 242, 242);
     color: grey;
     font-size: larger;
+    margin: 20px;
+    
 }
 aside p{
     color: grey;
 }
 .bout{
-    width: 800px;
+    width: 600px;
     border: 3px solid gray;
     border-radius: 5px;
+    margin-left: 15px;
+    height: 35px;
+    
     
 }
 #tout{
@@ -482,46 +569,86 @@ aside p{
 }      
 .button-fin{
     color: white;
-    background-color:#0367f5;
+    background-color: blue;
     border-radius: 5px;
-    font-weight: bold;
+    font-size: 25px;
     width: 250px;
     height: 40px;
 }
-
-
 .foot{
     color: white;
 }
-#ht{
+.enveloppe{
+    width: 30px;
+    float: left;
+    background-color: grey;
     
-    text-align: left;
 }
-.style{
+#ht{
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+#gras{
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.Message{
+    color: rgb(130, 130, 130);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+#massage{
+    margin-top: 20px;
+    height: 200px;
+}
+
+.button-fin{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(39, 24, 248);
+    width: 250px;
+    height: 100px;
+    margin-top: 40px;
+}
+#logo{
+    color: white;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    color: black;
+
+}
+.reseaux{
     display: flex;
-    gap: -45px;
-   
+    
 }
 .facebook{
-    width: 150px;
-    border-radius: 5px;
-    height: 30px;
+    width: 95px;
+    border-radius: 25px;
+    height: 25px;
+    
 }
 .twitter{
-    width: 150px;
-    border-radius: 5px;
-    height: 30px;
+    width: 95px;
+    border-radius: 25px;
+    height: 25px;
 }
 .insta{
-    width: 150px;
-    border-radius: 5px;
-    height: 30px;
+    width: 95px;
+    border-radius: 25px;
+    height: 25px;
 }
 .likedin{
-    width: 150px;
-    border-radius: 5px;
-    height: 30px;
+    width: 95px;
+    border-radius: 25px;
+    height: 25px;
 }
+
 img{
   display: block;
   margin: auto;
