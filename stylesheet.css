@@ -45,14 +45,19 @@ h3{
 img{
     display: block;
     margin: auto;
+    width: 400px;
 }
 iframe{
     display: block;
     margin: auto;
     width: 600px;
     height: 500px;
+    margin-bottom: 65px;
 }
-#g{
+.location{
+    width: 65px;
+    height: 35px;
+    float: left;
     
 }
 
@@ -77,10 +82,12 @@ aside p{
     color: grey;
 }
 .bout{
-    width: 800px;
+    width: 600px;
     border: 3px solid gray;
     border-radius: 5px;
     margin-left: 15px;
+    height: 35px;
+    
     
 }
 #tout{
@@ -99,10 +106,25 @@ button{
 }
 .enveloppe{
     width: 30px;
+    float: left;
+    background-color: grey;
     
 }
 #ht{
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 50px;
     
+}
+#gras{
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.Message{
+    color: rgb(130, 130, 130);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
 }
 
 #massage{
