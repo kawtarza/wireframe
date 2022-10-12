@@ -1,10 +1,10 @@
 
 
-// Large devices (desktops, 992px and up)
+/* Large devices (desktops, 992px and up) */
 
-@media (min-width: 992px) { ... }
+/* @media (min-width: 992px) { ... } */
 
-}
+
 
 
 
@@ -418,9 +418,7 @@ padding: 10px 50px;
   font-size: 15px;
 }
 /* contact */
-@media screen(max-width:200px), (max-height:250px) {
-    
-}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400px;
@@ -437,8 +435,7 @@ body {
       text-align: center;
   }
 
-#abc{
-}
+
  
 
 .cote{
@@ -472,9 +469,7 @@ iframe{
     width: 600px;
     height: 500px;
 }
-#g{
-    
-}
+
 
 
 footer{
@@ -521,9 +516,7 @@ button{
     width: 30px;
     
 }
-#ht{
-    
-}
+
 
 #massage{
     margin-top: 20px;
