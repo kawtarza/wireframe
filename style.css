@@ -421,25 +421,39 @@ padding: 10px 50px;
 @media screen(max-width:200px), (max-height:250px) {
     
 }
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400px;
+    
 }
+    
+#title-team{
+    text-align: center;
+    font-size: 2cm;
+}
+.par{
+    color: rgb(92, 92, 92);
+      font-size: 19px;
+      text-align: center;
+  }
 
 #abc{
-    color:grey;
 }
+ 
+
 .cote{
     width: 40px;
     height: 35px;
     margin-left: 0px;
     margin-top: 15px;
 }
-  
-
+p{
+    text-align: center;
+    color: grey; 
+    font-size: 18px;   
+}
 .team{
     color: blue;
-    text-align: center;
 }
 h2{
     text-align: center;
@@ -448,27 +462,26 @@ h2{
 h3{
     text-align: center;
 }
-.nom{
+img{
     display: block;
     margin: auto;
 }
 iframe{
     display: block;
     margin: auto;
+    width: 600px;
+    height: 500px;
 }
 #g{
     
 }
 
-#logo{
-    color: white;
-    display: block;
-    margin: auto;
-}
+
 footer{
     background-color: black;
     color: white;
     margin: 10px;
+    padding: 100px;
 }
 #RS{
     background-color: black;
@@ -477,6 +490,8 @@ aside{
     background-color: rgb(243, 242, 242);
     color: grey;
     font-size: larger;
+    margin: 20px;
+    
 }
 aside p{
     color: grey;
@@ -485,55 +500,81 @@ aside p{
     width: 800px;
     border: 3px solid gray;
     border-radius: 5px;
+    margin-left: 15px;
     
 }
 #tout{
         height: 150px;
 }      
-.button-fin{
+button{
     color: white;
-    background-color:#0367f5;
+    background-color: blue;
     border-radius: 5px;
-    font-weight: bold;
+    font-size: 25px;
     width: 250px;
     height: 40px;
 }
-/* footer */
-
 .foot{
     color: white;
 }
+.enveloppe{
+    width: 30px;
+    
+}
 #ht{
     
-    text-align: left;
-}
-.style{
-    display: flex;
-    gap: -45px;
-   
-}
-.facebook{
-    width: 150px;
-    border-radius: 5px;
-    height: 30px;
-}
-.twitter{
-    width: 150px;
-    border-radius: 5px;
-    height: 30px;
-}
-.insta{
-    width: 150px;
-    border-radius: 5px;
-    height: 30px;
-}
-.likedin{
-    width: 150px;
-    border-radius: 5px;
-    height: 30px;
 }
 
-.photo{
-  display: block;
-  margin: auto;
+#massage{
+    margin-top: 20px;
+    height: 200px;
+}
+
+.button-fin{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(39, 24, 248);
+    width: 250px;
+    height: 100px;
+    margin-top: 40px;
+}
+#logo{
+    color: white;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    color: black;
+
+}
+.reseaux{
+    display: flex;
+    
+}
+.facebook{
+    width: 95px;
+    border-radius: 25px;
+    height: 25px;
+    
+}
+.twitter{
+    width: 95px;
+    border-radius: 25px;
+    height: 25px;
+}
+.insta{
+    width: 95px;
+    border-radius: 25px;
+    height: 25px;
+}
+.likedin{
+    width: 95px;
+    border-radius: 25px;
+    height: 25px;
+}
+.Designed{
+    margin-top: 50px;
+}
+.f-1{
+    color: blue;
 }
