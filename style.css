@@ -217,6 +217,14 @@ a {
     margin-top: 20px;
   }
 
+  
+  
+  .button-undiv{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
 .button-un{
     border-radius: 30px;
 	padding: 10px 15px;
