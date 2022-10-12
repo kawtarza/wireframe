@@ -35,35 +35,26 @@
     float: right;
   }
 }
-  
-
-
-
-
-
-
 
 body{
   margin: 5%;
   height: 100vh;
-  width: 100vw;  
-    
+  width: 100vw;   
 }
+
 .fusee{
   display:none;
 }
 .largescreen{
   display: none;
-  
 }
+
 .page1 {
   /* background: linear-gradient(15deg, #0367f5, #0781ef,#036); */
   background: linear-gradient(55deg, rgba(3,103,245,1) 29%, rgba(7,129,239,1) 29%, rgba(7,129,239,1) 60%, rgba(3,103,245,1) 61%);
   
   }
-  
-
-  .logo{
+.logo{
     width : 50px;
     height : 50px;
     
@@ -218,6 +209,11 @@ a {
     margin-left: 30px;
     margin-top: 20px;
   }
+  .button-undiv{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
 
   
   
@@ -341,13 +337,7 @@ h3{
     position: center;
     font-size: larger;
     text-align: center;
-    background-color: white;
-
-
-
-    
-
-}
+    background-color: white;}
 .par{
     color: #757575;
     
@@ -520,12 +510,14 @@ iframe{
     height: 500px;
     margin-bottom: 65px;
 }
+
 .location{
     width: 65px;
     height: 35px;
     float: left;
     
 }
+
 
 
 footer{
@@ -640,9 +632,13 @@ aside p{
     border-radius: 25px;
     height: 25px;
 }
-.Designed{
-    margin-top: 50px;
+
+img{
+  display: block;
+  margin: auto;
 }
-.f-1{
-    color: blue;
+.photo{
+  display: block;
+  margin: auto;
+  width: 400px;
 }
