@@ -410,7 +410,7 @@ padding: 10px 50px;
   font-size: 15px;
 }
 /* contact */
-@media screen ande(max-width:200px), (max-height:250px) {
+@media screen and(max-width:200px), (max-height:250px) {
     
 }
 body{
@@ -448,9 +448,7 @@ iframe{
     display: block;
     margin: auto;
 }
-#g{
-    
-}
+
 
 #logo{
     color: white;
@@ -524,8 +522,12 @@ aside p{
     border-radius: 5px;
     height: 30px;
 }
-
+img{
+  display: block;
+  margin: auto;
+}
 .photo{
   display: block;
   margin: auto;
+  width: 400px;
 }
