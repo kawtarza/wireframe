@@ -1,3 +1,35 @@
+
+// Small devices (landscape phones, 576px and up)
+
+@media (min-width: 576px) {img {
+  width: 100%;
+  }
+
+// Medium devices (tablets, 768px and up)
+
+@media (min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+
+@media (min-width: 992px) { ... }
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+
+@media (min-width: 1200px) {
+
+  .full-width-img {
+    margin: auto;
+    width: 90%; */
+  ; }
+
+}
+
+
+
 body{
   margin: 5%;
   width: auto;
@@ -9,6 +41,7 @@ body{
   background: linear-gradient(55deg, rgba(3,103,245,1) 29%, rgba(7,129,239,1) 29%, rgba(7,129,239,1) 60%, rgba(3,103,245,1) 61%);
   
   }
+  
 
   .logo{
     width : 50px;
@@ -185,7 +218,7 @@ a {
     font-weight: bold;  
 }
 
-/* ourServices */
+/* our Services */
 .main{
   
   background-color: rgb(242, 242, 242);
@@ -486,7 +519,7 @@ aside p{
     width: 250px;
     height: 40px;
 }
-
+/* footer */
 
 .foot{
     color: white;
